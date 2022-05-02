@@ -20,7 +20,7 @@ For now the programm runs as a console application.
 ## How the classes interact
 The detailed attributes and methods are shown in following UML, it followes a short description for each class.
 
-![alt text](https://github.com/ellamiamaria/SE22/blob/main/app/UMLLanguageTrainer.jpg)
+![alt text](https://github.com/ellamiamaria/SE22/blob/main/app/UMLLanguageTrainerV1.0.jpg)
 
 #### CSVScanner
 The CSVScanner handels everything concerning reading, writing and deleting CSV files.
