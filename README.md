@@ -3,18 +3,24 @@ This software is intended to be used as a German language learning resource for 
 
 
 ## Build status
+Implemented requirements: 
+
 The student can choose between differnet learning tasks:
 - [x] Vocabulary 
 - [x] Reading and understanding text
-- [ ] Grammar
+
+Not implemented requirements:
+- [ ] Grammar 
+- [ ] Choosing from differnet skill levels (due to the lack of open source csv with vocabulary we just added a few to test the app)
+- [ ] User registration / login
 
 For now the programm runs as a console application.
+
 
 ## How the classes interact
 The detailed attributes and methods are shown in following UML, it followes a short description for each class.
 
-
-
+![alt text](https://github.com/ellamiamaria/SE22/blob/main/app/UMLLanguageTrainer.jpg)
 
 #### CSVScanner
 The CSVScanner handels everything concerning reading, writing and deleting CSV files.
@@ -38,10 +44,10 @@ In the Text-Class new Texts can be added and formated.
 This Class combines the texts with the affiliated questions. 
 
 
-
 ## How to update or add learning content
 All needed files are in the "resources" folder.
 To add new vocabulary the there saved CSV file "voc_list" can be updatet, to add questions the "questions_for_text" file can be upatet.
 Text are saved in a seperate Text-Class to simplify the representation in the console.
 All new CSV files which are written (f.ex list of known vocabulary a.s.o) are saved to the exact same folder.
 Direction and Filenames can quickly be changed in the Main file. 
+
