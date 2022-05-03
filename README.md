@@ -39,6 +39,7 @@ The Questions-Class provides the questions to each text.
 
 #### Texts
 In the Text-Class new Texts can be added and formated.
+//Text Origin: https://lingua.com/german/reading/
 
 #### TextWithQuestions
 This Class combines the texts with the affiliated questions. 
